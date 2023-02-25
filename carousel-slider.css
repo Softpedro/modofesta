@@ -1,0 +1,96 @@
+
+
+.product-carousel {
+  background: #ffffff;
+  box-sizing: border-box;
+  background-color: pink;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  margin: auto;
+}
+.product-carousel .product {
+  box-sizing: border-box;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-content: space-between;
+}
+
+.product-top img {
+  display: block;
+}
+.product-top {
+width: 100%;}
+
+
+/** ARROWS **/
+i {
+  display: inline-block;
+  padding: 12px;
+  /*top: calc(0%);*/
+  cursor: pointer;
+}
+.right {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: 120px;
+  margin: 0px 0px 0px -30px;
+  background-image: url(images/right.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 12px 20px -6px rgba(0, 0, 0, 0.6);
+  z-index: 3;
+  /*transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);*/
+  background-color: #6bbd49;
+}
+.left {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: 40px;
+  margin: 0px 0px 0px -30px;
+  background-image: url(images/left.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 12px 20px -6px rgba(0, 0, 0, 0.6);
+  z-index: 3;
+  /*transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);*/
+  background-color: #6bbd49;
+}
+/** SLICK SLIDER CSS **/
+/* Slider */
+.slick-slider {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-track {
+  display: flex;
+  justify-content: flex-end !important;
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 100vh;
+}
+
